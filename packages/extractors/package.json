@@ -1,5 +1,5 @@
 {
-	"name": "player",
+	"name": "extractors",
 	"version": "0.1.0",
 	"description": "LightWeight Framework for Discord API Supported Javascript / Typescript Music Bots and Radio Bots with fast moderation with commands and no memory leak mode",
 	"main": "dist",
@@ -30,7 +30,6 @@
 		"npm": ">=8.0.0"
 	},
 	"dependencies": {
-		"eris": "^0.17.1",
 		"events": "^3.3.0",
 		"ffmpeg-static": "^5.1.0",
 		"fluent-ffmpeg": "^2.1.2",
@@ -48,7 +47,7 @@
 	"author": "Sid is Live YT",
 	"repository": {
 		"url": "Guild-Of-Jericho/Jericho-Player",
-		"directory": "packages/player"
+		"directory": "packages/extractors"
 	},
 	"license": "ISC",
 	"bugs": {

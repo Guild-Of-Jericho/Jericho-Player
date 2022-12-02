@@ -1,8 +1,8 @@
-import Playlist from '../../classes/playlist';
-import Track from '../../classes/track';
-import { isUrl, ms2hu } from '../../utils/baseUtils';
+import Playlist from '../classes/playlist';
+import Track from '../classes/track';
+import { isUrl, ms2hu } from '../utils/baseUtils';
 import extractor from '../extractor';
-import scdClientGen from '../scd-client';
+import scdClientGen from '../clients/scd-client';
 
 export default class soundCloudEx {
 	static regex = {

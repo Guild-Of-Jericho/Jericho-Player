@@ -1,6 +1,6 @@
 import fluentFfmpeg from 'fluent-ffmpeg';
-import Track from '../../classes/track';
-import { isUrl, ms2hu } from '../../utils/baseUtils';
+import Track from '../classes/track';
+import { isUrl, ms2hu } from '../utils/baseUtils';
 import extractor from '../extractor';
 
 export type httpMetadataType = {

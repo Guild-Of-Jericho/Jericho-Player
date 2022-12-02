@@ -1,11 +1,17 @@
 import isoFetch from 'isomorphic-unfetch';
 import spotifyUrlInfo from 'spotify-url-info';
 import SpotifyWebApiNode from 'spotify-web-api-node';
-import Playlist from '../../classes/playlist';
-import Track from '../../classes/track';
-import { spotifyToken } from '../../constants/dyno-json';
-import { isUrl, ms2hu } from '../../utils/baseUtils';
+import Playlist from '../classes/playlist';
+import Track from '../classes/track';
+import { isUrl, ms2hu } from '../utils/baseUtils';
 import extractor from '../extractor';
+
+export type spotifyToken = {
+	clientId: string;
+	clientSecret: string;
+	redirectUri?: string;
+	accessToken?: string;
+};
 
 const { getData } = spotifyUrlInfo(isoFetch);
 

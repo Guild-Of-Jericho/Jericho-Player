@@ -1,8 +1,8 @@
 {
-	"name": "@jericho-player/player",
+	"name": "@guild-of-jericho/jericho-player",
 	"version": "0.0.0",
 	"description": "A Powerfull NPM Module for Javascript / Typescript Discord API with No Memory leak Support",
-	"repository": "Guild-Of-Jerochi/Jericho-Player",
+	"repository": "Guild-Of-Jericho/Jericho-Player",
 	"homepage": "https://jericho-player.js.org",
 	"private": true,
 	"contributors": [

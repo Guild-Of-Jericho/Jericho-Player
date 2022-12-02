@@ -1,8 +1,8 @@
 import { MusicVideo, searchMusics } from 'node-youtube-music';
 import { playlist_info, YouTubePlayList, YouTubeVideo } from 'play-dl';
-import Playlist from '../../classes/playlist';
-import Track from '../../classes/track';
-import { isUrl, hu2ms } from '../../utils/baseUtils';
+import Playlist from '../classes/playlist';
+import Track from '../classes/track';
+import { isUrl, hu2ms } from '../utils/baseUtils';
 import extractor from '../extractor';
 
 export default class ytMusicEx {

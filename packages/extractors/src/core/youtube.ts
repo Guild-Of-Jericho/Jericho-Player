@@ -1,7 +1,7 @@
 import { YouTubeVideo, YouTubePlayList, playlist_info, video_basic_info, search } from 'play-dl';
-import Playlist from '../../classes/playlist';
-import Track from '../../classes/track';
-import { isUrl } from '../../utils/baseUtils';
+import Playlist from '../classes/playlist';
+import Track from '../classes/track';
+import { isUrl } from '../utils/baseUtils';
 import extractor from '../extractor';
 
 export default class youtubeEx {
